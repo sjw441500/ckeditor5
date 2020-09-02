@@ -84,7 +84,9 @@ ClassicEditor.defaultConfig = {
 			'insertTable',
 			'mediaEmbed',
 			'undo',
-			'redo'
+			'redo',
+			'|',
+			'simpleBox'
 		]
 	},
 	image: {
