@@ -1,8 +1,10 @@
 // simplebox/simplebox.js
 
-// import SimpleBoxEditing from './simpleboxediting';
-// import SimpleBoxUI from './simpleboxui';
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
+import { toWidget, toWidgetEditable } from '@ckeditor/ckeditor5-widget/src/utils';
+import Widget from '@ckeditor/ckeditor5-widget/src/widget';
+import Command from '@ckeditor/ckeditor5-core/src/command';
+import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
 
 export default class SimpleBox extends Plugin {
     static get requires() {

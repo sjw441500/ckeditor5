@@ -1,2 +1,0 @@
-// simplebox/simpleboxediting.js
-
