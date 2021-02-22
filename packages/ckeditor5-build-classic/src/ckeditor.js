@@ -38,7 +38,7 @@ export default class ClassicEditor extends ClassicEditorBase {}
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
 	Essentials,
-	UploadAdapter,
+	// UploadAdapter,
 	Autoformat,
 	Bold,
 	Italic,
@@ -60,7 +60,8 @@ ClassicEditor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	TextTransformation,
-	SimpleUploadAdapter,
+	Base64UploadAdapter,
+	// SimpleUploadAdapter,
 ];
 
 // Editor configuration.
